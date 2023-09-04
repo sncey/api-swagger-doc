@@ -1,0 +1,27 @@
+{
+  "name": "curriculum-backend-api-documentation-swagger",
+  "version": "1.0.0",
+  "description": "API Documentation using Swagger",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ReCoded-Org/curriculum-backend-api-documentation-swagger.git"
+  },
+  "author": "Re:Coded",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ReCoded-Org/curriculum-backend-api-documentation-swagger/issues"
+  },
+  "homepage": "https://github.com/ReCoded-Org/curriculum-backend-api-documentation-swagger#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.14",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^4.6.3"
+  }
+}
